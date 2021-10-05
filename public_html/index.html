@@ -1,157 +1,27 @@
-<html>
-  <head>
-    <title><strong>Sebastian Fine’s First Website</strong></title>
-  </head>
-      <!-- Purpose -->
-      <center><h1><strong><u>Purpose of the Page</u></strong></h1></center>
-      <justify><body>
-      The purpose of this page is to become familiar with linux, vi, and git commands. The lists below serve as an initial guideline for the commands utilized to establish a git repository, open the vi editor after initializing, and push commits to the page.
-      	</body><justify><br><br>	
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Linux Command Section -->
-          <center><h2><strong><u>Linux Commands</u></strong></h2></center>
-              <body>
-                <dl>
-                    <dt>
-                      <strong>ls- </strong>
-                    </dt>
-                      <dd>
-                          Directory Listing.
-                      </dd><br>
-                    <dt>
-                      <strong>cd <em>dir</em> -</strong>
-                          <dd>
-                              Change Directory to <em>dir</em>.
-                          </dd><br>
-                    <dt>
-                      <strong>pwd -</strong>
-                          <dd>
-                              Present Working Directory.
-                          </dd><br>
-                    <dt>
-                      <strong>mkdir -</strong>
-                          <dd>
-                              Create Directory.
-                          </dd><br><br>
-                </dl>
-              </body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+    <title>Hello, world!</title>
+</head>
+<body>
+<h1>Hello, world!</h1>
 
-      <!-- VI Command Section -->
-          <center>
-              <h2><strong><u>VI Commands</u></strong></h2>
-          </center>
-              <body><dl>
-                  <dt>
-                      <strong>vi <em>filename</em> - </strong>			
-      </dt>
-                      <dd>
-                          edit <em>filename</em> at line 1. 
-                      </dd><br>
+<!-- Optional JavaScript; choose one of the two! -->
 
-                  <dt>
-                      <strong>SHIFT + ":" -</strong>
-                  </dt>
-                      <dd>
-                          Enter command in vi. 
-                      </dd><br>
-                  <dt>
-                      <strong>ESC - </strong>
-                  </dt>
-                      <dd>
-                          Turns off Insert Mode in vi. 
-                      </dd><br>
-                  <dt>
-                      <strong> x - </strong>
-                  </dt>
-                      <dd>
-                          Write-out and quit vi. 
-                      </dd><br>
-                  <dt>
-                      <strong>w -</strong> 
-                      <dd>
-                          Write into file in vi. 
-                      </dd><br>
-                  <dt>
-                      <strong>q -</strong>
-                      <dd>
-                          Quit vi. 
-                      </dd><br>
-                  <dt>
-                      <strong>wq -</strong>
-                      <dd>
-                          Write-out and quit vi
-                      </dd><br><br>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-
-      <!-- Git Command Section -->
-              </dl></body>
-          <center>
-              <h2><strong><u>Git Commands</u></strong></h2>	</center>
-              <body>
-                <dl>
-                    <dt>
-                      <strong> git add - </strong>
-                    </dt>
-                      <dd>
-                          Add file to next commit (stage).
-                      </dd><br>
-                    <dt>
-                      <strong> git branch - </strong>
-                    </dt>
-                      <dd>
-                          List branches with * as active.
-                      </dd><br>
-                    <dt>
-                      <strong>git branch "[Branch Name]" -</strong>
-                    </dt>
-                      <dd>
-                          Create a new branch at the current commit.
-                      </dd><br>
-		    <dt>
-			    <strong>git checkout "Branch Name"</strong>
-		    </dt>
-		    	<dd>
-				Leave current branch for "Branch Name"
-			</dd><br>
-                    <dt>
-                    	<strong>git checkout -b "[Branch Name]" -</strong>
-                    </dt>
-                    	<dd>
-       						Create new branch.
-                        </dd><br>
-                    <dt>
-                    	<strong>git init -</strong> 
-                    </dt>
-                      <dd>
-                          Initialize existing directory as a Git repository.
-                      </dd><br>
-                    <dt>
-                      <strong>git merge [Branch] -</strong>
-                    </dt>
-                      <dd>
-                          Merge branch’s history into current branch.
-                      </dd><br>
-                    <dt>
-                      <strong>git push [Alias] [Branch] -</strong>
-                    </dt>
-                      <dd>
-                          Transmit local branch commits to remote repository branch.
-                      </dd><br>
-                    <dt>
-                      <strong>git status -</strong>
-                    </dt>
-                      <dd>
-                          Show modified files in the working directory staged for the next commit.
-                      </dd><br>
-                    <dt>
-			    <strong>git commit -m "[Message Desc]" -</strong> 
-                    </dt>
-                      <dd>
-                          Commit staged content as a new commit snapshot.
-                      </dd><br>
-                </dl>
-              </body>
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+-->
+</body>
 </html>
-
-
